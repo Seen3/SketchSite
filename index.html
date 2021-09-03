@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketch</title>
     <link rel="icon" href="https://image.flaticon.com/icons/png/128/37/37129.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="controls">
     <h1>Sketch!!</h1>
     <button onclick="clr();">Clear</button>
+    <br>
+    <input type="color" id="col" />
+    <br>
+    <input type='range' min=1 max=16 id='boxnum'/><button onclick="removeBoxes()">Apply</button>
+    <br>
+    <p>Drugs?</p><input type="checkbox" id="drugged">
+</div>
     <div id="board"></div>
 </body>
+<footer>
+    
+</footer>
 </html>
