@@ -1,0 +1,45 @@
+#board{
+    margin: auto;
+}
+body{
+    background-image: url(pexels-pixabay-268415.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+h1,p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    display: inline;
+}
+#controls{
+    position: absolute;
+}
+input{
+    width: 5em;
+    height: 2em;
+    margin: 10px 22px;
+    font-size: 24px;
+    background-color:rgba(20, 73, 220, 0.418) ;
+    text-align: center;
+}
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(222, 224, 253);
+    background-color: #044caa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin:15px;
+  }
+  
+  button:hover {background-color: #3e468e}
+  
+  button:active {
+    background-color: #263888;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
